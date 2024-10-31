@@ -12,8 +12,10 @@
                     <div class="rol-titulo">Administrador</div>
                     <div class="fecha-titulo" id="fecha">00/00/00 00:00</div>
                 </div>
-                <div class="enlaces seccion">
-                    <p> Es para los enlaces </p>
+                <div class="seccion enlaces">
+                    <a href="productos.php" class="enlace active">Productos</a>
+                    <a href="productos.php" class="enlace"><i class="fa-solid fa-bag-shopping"></i>Ventas</a>
+                    <a href="productos.php" class="enlace">Reportes</a>
                 </div>
                 <div class="firma seccion">
                     <p>Es para la firma</p>
@@ -21,24 +23,21 @@
             </nav>
         </div>
         <h1> Bienvenidos </h1>
-        <a href="productos.php">
-            Ve a productos
-        </a>
-        <br /> 
-        <a href="ventas.php">A ventas </a>
-
+        <script src="https://kit.fontawesome.com/dfc17848b1.js" crossorigin="anonymous"></script>
         <script>
             let num = 0; 
 
             setInterval(() => {
+                let f =0 ;
+                var k =0; 
                 const fechaContendor = document.getElementById("fecha");
                 /** aqui se acomoda la fecha */ 
                 const fechaHoy = new Date(); 
-                const dia = fechaHoy.getDate().toString(); 
-                const mes = (fechaHoy.getMonth() + 1).toString();
+                const dia = fechaHoy.getDate().toString().padStart(2,'0'); 
+                const mes = (fechaHoy.getMonth() + 1).toString().padStart(2,'0');
                 const anio = fechaHoy.getFullYear().toString();
-                const hora = fechaHoy.getHours().toString();
-                const minutos = fechaHoy.getMinutes().toString();
+                const hora = fechaHoy.getHours().toString().padStart(2,'0');
+                const minutos = fechaHoy.getMinutes().toString().padStart(2,'0');;
                 const fechaTotal = dia + '/' + mes + '/' + anio + ' ' + 
                                    hora + ':' + minutos;  
                        // `${dia}/${mes}/${anio} ${hora}:${minutos}`;

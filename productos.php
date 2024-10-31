@@ -1,3 +1,12 @@
+<?php
+    require('scripts/Conexion.php');
+    require('scripts/DaoProducto.php'); 
+    $con = new Conexion(); 
+    $dao = new DaoProducto($con->obtenerConexion());
+    $R = $dao->buscarTodos();  
+    print_r($R)
+?>
+
 <!DOCTYPE html>
 <head>
     <title>Document</title>
