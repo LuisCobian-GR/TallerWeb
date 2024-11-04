@@ -56,7 +56,6 @@ a.enlace {
     background: #9994d6;
     text-decoration: none;
     color: var(--main-color-letra);
-    text-align: center;
     transition: background-color 0.4s ease;
 }
 
@@ -66,4 +65,18 @@ a.enlace:hover {
 
 a.active {
     border-left: 13px solid #5a53a5;
+}
+
+a i {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+/*** Firma */ 
+
+.firma {
+  font-size: .7rem;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;  
 }

@@ -13,12 +13,18 @@
                     <div class="fecha-titulo" id="fecha">00/00/00 00:00</div>
                 </div>
                 <div class="seccion enlaces">
-                    <a href="productos.php" class="enlace active">Productos</a>
-                    <a href="productos.php" class="enlace"><i class="fa-solid fa-bag-shopping"></i>Ventas</a>
-                    <a href="productos.php" class="enlace">Reportes</a>
+                    <a href="productos.php" class="enlace active">
+                        <i class="fa-solid fa-barcode"></i>Productos</a>
+                    <a href="productos.php" class="enlace">
+                        <i class="fa-solid fa-bag-shopping"></i>Ventas</a>
+                    <a href="productos.php" class="enlace">
+                    <i class="fa-solid fa-chart-simple"></i>Reportes</a>
                 </div>
-                <div class="firma seccion">
-                    <p>Es para la firma</p>
+                <div class="seccion enlaces">
+                    <a href="productos.php" class="enlace">
+                    <i class="fa-solid fa-right-from-bracket"></i>Cerrar sesión</a>
+                    <div class="firma"> Version 1.0.0 </div>
+                    <div class="firma"> Luis Cobian </div>
                 </div>       
             </nav>
         </div>
