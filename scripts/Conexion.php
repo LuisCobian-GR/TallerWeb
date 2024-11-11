@@ -9,9 +9,9 @@ class Conexion{
 
     public function __construct()
     {
-        $this->host = '192.168.0.206'; 
+        $this->host = 'localhost'; 
         $this->usuario = 'root'; 
-        $this->pass = 'rootroot'; 
+        $this->pass = ''; 
         $this->basededatos = 'tiendax'; 
     }
 

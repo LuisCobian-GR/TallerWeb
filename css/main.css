@@ -80,3 +80,28 @@ a i {
   font-weight: 800;
   text-align: center;  
 }
+
+.contenido {
+    background: #9994d6;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1.principal {
+    text-align: center;
+    margin-top: 35px;
+}
+
+div.logo_principal{
+    text-align: center;
+}
+
+img.principal {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
